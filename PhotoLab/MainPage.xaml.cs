@@ -127,6 +127,8 @@ namespace PhotoLab
                 }
             }
 
+            ImageGridView.ItemsSource = Images;
+
             if (unsupportedFilesFound == true)
             {
                 ContentDialog unsupportedFilesDialog = new ContentDialog
